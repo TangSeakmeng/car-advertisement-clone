@@ -1,0 +1,38 @@
+@import './variables';
+
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    .header-container {
+        padding: 40px;
+
+        .nav-bar-container {
+            gap: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .nav-element-container {
+                transition: 0.25s;
+                border-radius: 5px;
+                padding: 12px 20px;
+
+                h4 {
+                    font-weight: bold;
+                    font-family: $joan-font;
+                }
+
+                &:hover {
+                    color: white;
+                    cursor: pointer;
+                    background-color: $color1;
+                    transition: 0.25s;
+                }
+            }
+        }
+    }
+}

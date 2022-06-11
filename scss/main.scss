@@ -1,0 +1,14 @@
+@import './variables';
+@import './header';
+@import './app';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    max-width: 1750px;
+    margin: 0 auto;
+}

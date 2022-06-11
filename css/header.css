@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+header .header-container {
+  padding: 40px;
+}
+
+header .header-container .nav-bar-container {
+  gap: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .header-container .nav-bar-container .nav-element-container {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
+
+header .header-container .nav-bar-container .nav-element-container h4 {
+  font-weight: bold;
+  font-family: "Joan", serif;
+}
+
+header .header-container .nav-bar-container .nav-element-container:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #7F67FA;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+/*# sourceMappingURL=header.css.map */
